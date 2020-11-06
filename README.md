@@ -2,6 +2,8 @@
 
 ## Purpose
 Control the ON time of pulse with a potentiometer and fire up with a button.
+Send a time critical pulse to any machine. F.E. TIG welder etc... This project transforms a random duration input pulse from a button, to a standard duration pulse. The output pulse duration is controlled by a potentiometer. The button press causes a single pulse in the output and the output pulse starts immediately on the button press (positive edge trigger). 
+
 
 ## Hardware:
 Material:
@@ -19,7 +21,3 @@ Circuit:
 
 ![Circuit](resources/circuit.png)
 
-
-
-Purpose:
-Send a time critical pulse to any machine. F.E. TIG welder etc... This project transforms a random duration input pulse from a button, to a standard duration pulse. The output pulse duration is controlled by a potentiometer. The button press causes a single pulse in the output and the output pulse starts immediately on the button press (positive edge trigger). 
